@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaper-house.com/data/out/7/wallpaper2you_186721.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  header {
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    background-color:#466368;
+    background-color: radial-gradient(#648880, #293f50);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(89, 205, 205)
+  }
+  
+  iframe {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    background-color:#466368;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #466368;
+  }
+  
+  a {
+    display: block;
+    margin: 20px auto;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a:hover {
+    color: #555;
+  }
+  

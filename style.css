@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/136664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 605px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.wrapper header {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-area i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.quote-area p {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child {
+    margin-right: 5px;
+    font-family: monospace;
+}
+
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.buttons ul {
+    display: flex;
+    list-style: none;
+}
+
+.buttons ul li {
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #5372f0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #5372f0;
+    transition: all 0.3s ease;
+}
+
+.buttons ul li:hover {
+    color: #fff;
+    background: #5372f0;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: #5372f0;
+    float: right;
+}
